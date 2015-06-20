@@ -1,5 +1,5 @@
 # gae-scala-jersey-scalajs
-Maven project divided into three modules.
+Google App Engine with Scala backend using Jersey and ScalaJs to produce JavaScript with common code. Maven project divided into three modules.
 
 1 Google App
 ------------
