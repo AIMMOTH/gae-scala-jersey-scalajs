@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+  version="2.5">
+  <!-- TODO: Add <servlet> tags for each servlet here. -->
+  <!-- TODO: Add <servlet-mapping> tags for each <servlet> here. -->
+  <!-- TODO: Optionally add a <welcome-file-list> tag to display a welcome 
+    file. -->
+
+  <servlet>
+    <servlet-name>jersey_web_application</servlet-name>
+    <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+    <init-param>
+      <param-name>jersey.config.server.provider.packages</param-name>
+      <param-value>se.ce.scala</param-value>
+    </init-param>
+    <init-param>
+      <!-- speed up initial Jersey loading by deactivating WADL -->
+      <param-name>jersey.config.server.wadl.disableWadl</param-name>
+      <param-value>true</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>jersey_web_application</servlet-name>
+    <url-pattern>/jersey/*</url-pattern>
+  </servlet-mapping>
+
+</web-app>
