@@ -25,3 +25,9 @@ Build
 2. In 'js' folder run 'sbt fastOptJS'
 3. Copy built JavaScript into webapp folder
 4. Run in 'gae' folder 'mvn appengine:devserver'
+
+Eclipse
+-------
+
+1. Import as "Existing Maven Projects ..."
+2. Set 2.10 as Scala version for projects "js" and "scala"
