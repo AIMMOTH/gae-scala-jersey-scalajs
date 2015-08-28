@@ -23,8 +23,7 @@ Build
 
 1. In root folder run 'mvn install'
 2. In 'js' folder run 'sbt fastOptJS'
-3. Copy built JavaScript into webapp folder
-4. Run in 'gae' folder 'mvn appengine:devserver'
+3. Run in 'gae' folder 'mvn appengine:devserver'
 
 Eclipse
 -------
