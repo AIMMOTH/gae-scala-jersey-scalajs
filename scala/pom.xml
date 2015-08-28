@@ -62,6 +62,7 @@
     </dependency>
   </dependencies>
   <build>
+  	<outputDirectory>../gae/src/main/webapp/WEB-INF/classes</outputDirectory>
     <plugins>
       <plugin>
         <groupId>org.scala-tools</groupId>
