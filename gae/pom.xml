@@ -15,6 +15,7 @@
   <properties>
     <app.id>workaround-town</app.id>
     <app.version>stage</app.version>
+    <!-- Use these settings with mvn -Dsrc.dir=src/main -Dfinal.name=webapp -Doutput.dir=src/main/webapp appengine:devserver -->
     <src.dir>target</src.dir>
     <final.name>${project.artifactId}-${project.version}</final.name>
     <output.dir>${project.build.directory}/${project.build.finalName}</output.dir>
