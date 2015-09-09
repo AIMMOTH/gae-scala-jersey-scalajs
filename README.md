@@ -3,15 +3,15 @@ Google App Engine with Scala backend using Jersey and ScalaJs to produce JavaScr
 
 1 Google App
 ------------
-Maven module with simple Google app with dependency to Scala with Jersey (2). Configures Jersey in web.xml. Contains a simple HTML file with including JavaScript which is manually copied into the folder.
+Maven module with simple Google app with dependency to Scala with Jersey (2). Configures Jersey in web.xml. Contains a simple HTML file with including JavaScript from ScalaJS (3).
 
 2 Scala with Jersey
 -------------------
-Maven module with Scala implementing Jersey and using common logic from ScalaJs (3)
+Maven module with Scala implementing Jersey and using common logic from ScalaJs (3).
 
 3 ScalaJs
 ---------
-Maven module with ScalaJs and also SBT to build JavaScript. Also contains common logic with Scala with Jersey (2)
+Maven module with ScalaJs and also SBT to build JavaScript. Also contains common logic with Scala with Jersey (2).
 
 Install
 -------
